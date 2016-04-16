@@ -255,7 +255,7 @@ public abstract class JssAdvancedDemo {
             }
 
             @Override
-            public int run(IJssController shellController, String[] args) {
+            public int run(IJssController shellController, String... args) {
                 int commandReturnStatus = 0;
 
                 shellFrame.setVisible(false);
@@ -299,7 +299,7 @@ public abstract class JssAdvancedDemo {
             }
 
             @Override
-            public int run(IJssController shellController, String[] args) {
+            public int run(IJssController shellController, String... args) {
                 int commandReturnStatus = 0;
 
                 shellFrame.setVisible(true);
